@@ -32,6 +32,7 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -330,7 +331,13 @@
 -r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll"
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/CFXR.WelcomeScreen.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/CFXRDemo.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/CFXREditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/CFXRRuntime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/KinoBloom.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/ToonyColorsPro.Demo.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
@@ -367,10 +374,26 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/AsteroidBehaviour.cs"
 "Assets/Scripts/AutoScroller.cs"
+"Assets/Scripts/DestroyObject.cs"
+"Assets/Scripts/Instantiator.cs"
+"Assets/Scripts/Interfaces/Input/IInputeable.cs"
+"Assets/Scripts/Interfaces/Input/InputKeyboardListener.cs"
+"Assets/Scripts/Interfaces/Input/InputProvider.cs"
+"Assets/Scripts/Interfaces/IShootable.cs"
 "Assets/Scripts/Mover.cs"
+"Assets/Scripts/OnCollisionDo.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_New.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDir.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RotateCamera.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_Translate.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoDestructShuriken.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs"
+"Assets/Texture/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightIntensityFade.cs"
 -langversion:9.0
 
 /deterministic
